@@ -1,7 +1,7 @@
 import db from "./models/index";
 
 db.sequelize
-  .sync({ force: false })
+  .sync({ force: true })
   .then(() => {
     console.log("DB connected");
   })
@@ -10,32 +10,32 @@ db.sequelize
   });
 // CRUD TEST
 const Test = async () => {
-  // Create Test
-  // const cu = await db.User.create({
-  //   loginId: "korea",
-  //   password: "1234",
-  //   nickname: "HALP",
-  //   address: "12345678912345678912345678912345",
-  //   role: 0,
-  // });
-  // await db.Post.create({
-  //   title: "안녕하세요 redux에 대해서 궁금한 점이 있습니다.",
-  //   id: 1,
-  //   contents: "안녕하쇼! redux에 대해서 알아보러온 하얼빈의 장첸이오",
-  //   category: 1,
-  //   status: 0,
-  // });
-  // Read Test
-  // const ru = await db.User.findOne({
-  //   where: { loginId: "korea" },
-  //   raw: true,
-  // attributes: ["*"], want specify field's value push name in Array
-  // english very hard
-  // });
-  // Update Test
-  //await db.User.update({ loginId: "KOREA" }, { where: { loginId: "korea" } });
-  // Delete Test
-  //await db.User.destroy({ where: { loginId: "KOREA" } });
+  Create Test
+  const cu = await db.User.create({
+    loginId: "korea",
+    password: "1234",
+    nickname: "HALP",
+    address: "12345678912345678912345678912345",
+    role: 0,
+  });
+  await db.Post.create({
+    title: "안녕하세요 redux에 대해서 궁금한 점이 있습니다.",
+    id: 1,
+    contents: "안녕하쇼! redux에 대해서 알아보러온 하얼빈의 장첸이오",
+    category: 1,
+    status: 0,
+  });
+  Read Test
+  const ru = await db.User.findOne({
+    where: { loginId: "korea" },
+    raw: true,
+  attributes: ["*"], want specify field's value push name in Array
+  english very hard
+  });
+  Update Test
+  await db.User.update({ loginId: "KOREA" }, { where: { loginId: "korea" } });
+  Delete Test
+  await db.User.destroy({ where: { loginId: "KOREA" } });
 
   // dummyData 생성
 
@@ -80,5 +80,6 @@ const Test = async () => {
   }
 };
 
-// Test(); // dummydata 를 생성하려면 주석을 해제해주세요
+Test(); 
+// dummydata 를 생성하려면 주석을 해제해주세요
 export default db;
