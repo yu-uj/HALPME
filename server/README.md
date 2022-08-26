@@ -46,3 +46,9 @@
     // line 84
     Test();
     ```
+6. Using Web3 for connect to Ganache Network. Add `.env` file.
+    
+    ```
+    SERVER_ADDRESS={Local Ganache account address[0]}
+    SERVER_PRIVATE_KEY=
+    ```
