@@ -12035,12 +12035,21 @@
     "5777": {
       "events": {},
       "links": {},
+<<<<<<< HEAD
       "address": "0x8BA3bc21909E11b34C8F8FC2668B1f0b263B3ac4",
       "transactionHash": "0xbbf2d4d9b652807d9b19090e08e0ebcc64ea030fcb1f9ea8f6ab676c8b7645ee"
     }
   },
   "schemaVersion": "3.4.9",
   "updatedAt": "2022-08-25T08:33:30.078Z",
+=======
+      "address": "0x972E8c6b5E0f8C9B5a1942594895a979f1Fe788c",
+      "transactionHash": "0x31489014b442acc7c86d05a37a2cf93345774e029e317b785b3809b356a58531"
+    }
+  },
+  "schemaVersion": "3.4.9",
+  "updatedAt": "2022-08-29T02:01:22.257Z",
+>>>>>>> dev
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

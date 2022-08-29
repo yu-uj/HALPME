@@ -5684,7 +5684,11 @@
   },
   "networks": {},
   "schemaVersion": "3.4.9",
+<<<<<<< HEAD
   "updatedAt": "2022-08-25T08:17:10.378Z",
+=======
+  "updatedAt": "2022-08-29T02:01:04.983Z",
+>>>>>>> dev
   "devdoc": {
     "kind": "dev",
     "methods": {},

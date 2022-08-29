@@ -12225,12 +12225,21 @@
         }
       },
       "links": {},
+<<<<<<< HEAD
       "address": "0x882073bFb38E4163A4CC556598B0adCA61697ec7",
       "transactionHash": "0x5cb5ec4093c3db94514e2d65791ce4a0a4e59a6388ce533e1ed15cc0ff50e221"
     }
   },
   "schemaVersion": "3.4.9",
   "updatedAt": "2022-08-25T08:33:31.244Z",
+=======
+      "address": "0x5e3CE3FDE3EF89A2888edFcD03aAF1655b067B5E",
+      "transactionHash": "0x1bf22c6bd2cbdd90f309111256ef8deccff6ea50cbbaf262e3f38afe58b1fc8c"
+    }
+  },
+  "schemaVersion": "3.4.9",
+  "updatedAt": "2022-08-29T02:01:23.098Z",
+>>>>>>> dev
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
