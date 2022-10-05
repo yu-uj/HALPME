@@ -22,12 +22,8 @@ export default {
     });
   },
   createUser: async (userObj) => {
-<<<<<<< HEAD
-    // const newAddress = await web3.eth.personal.newAccount(userObj.password);
-=======
-    const newAddress = await web3.eth.personal.newAccount(userObj.password);
 
->>>>>>> a2d13283ebfe12d0758b650ecddf4b81657a4a8d
+    const newAddress = await web3.eth.personal.newAccount(userObj.password);
     const user = await db.User.create({
       loginId: userObj.loginId,
       password: userObj.password,
